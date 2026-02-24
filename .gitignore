@@ -1,0 +1,66 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Project-specific data/output
+# ----------------------------
+
+# Moving MNIST downloaded/raw data
+video_diffusion/data/
+
+# Training outputs (samples, checkpoints, logs)
+video_diffusion/results_moving_mnist/
+results/
+logs/
+wandb/
+runs/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Media artifacts
+*.gif
+*.mp4
+*.avi
+*.webm
+
+# Large arrays / tensors
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ----------------------------
+# Optional: keep one demo gif
+# ----------------------------
+# 如果你想保留演示图，把它放到 docs/ 并取消忽略
+!docs/
+!docs/*.gif
