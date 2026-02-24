@@ -1,0 +1,7 @@
+einops>=0.4
+einops-exts
+rotary-embedding-torch
+torch>=1.10
+torchvision
+transformers[torch]
+tqdm
